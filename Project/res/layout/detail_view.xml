@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical" 
+  android:background="@drawable/black_background">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/detail_view_job_title_txt" android:textSize="30sp" android:typeface="monospace" android:id="@+id/detail_view_job_title_lbl" android:paddingTop="20dp"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/detail_view_date_lbl_txt" android:id="@+id/detail_view_date_lbl"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dip" android:id="@+id/detail_view_note_lbl" android:text="@string/detail_view_note_lbl" android:textSize="20sp"></TextView>
+    <TextView android:gravity="center" android:text="@string/detail_view_notes_hint" android:id="@+id/detail_view_notes_txt" android:layout_width="match_parent" android:layout_height="100dip"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_view_address_lbl" android:id="@+id/detail_view_addresslbl"></TextView>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/detail_view_get_dir_btn_txt" android:layout_marginTop="10dip" android:id="@+id/get_direction_btn"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/send_update_btn" android:text="@string/detail_view_send_update_btn_txt"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/complete_work_btn" android:text="@string/complete_work_btn_txt" android:visibility="invisible"></Button>
+</LinearLayout>

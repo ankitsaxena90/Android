@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WorkOrder!</string>
+    <string name="app_name">openBox</string>
+    <string name="datelbl">Date :</string>
+    <string name="jobtitletxt">Description :</string>
+    <string name="namelbl">Name :</string>
+    <string name="titlelbl">PLEASE ENTER WORK DETAILS BELOW...</string>
+    <string name="jobTitleHint">Specify Job Title</string>
+    <string name="TVjobTxt">Enter Job/Title :</string>
+    <string name="nametxtHint">Specify Name</string>
+    <string name="Addresslbl">Address :</string>
+    <string name="AddressHint">Specify Address</string>
+    <string name="MobileLbl">Mobile No :</string>
+    <string name="PhoneLbl">Phone No :</string>
+    <string name="mobileHint">9911333025</string>
+    <string name="phoneHint">12345678</string>
+    <string name="notesLbl">Notes :</string>
+    <string name="btnSave">Save Information</string>
+    <string name="dateHint">MM/DD/YYYY</string>
+    <string name="new_work_order_btn">New Work Order</string>
+    <string name="summery_header_lbl">SUMMERY VIEW</string>
+    <string name="login_header_txt">PLEASE ENTER USERNAME AND PASSWORD TO CONTINUE</string>
+    <string name="login_btn_lbl">LOGIN NOW</string>
+    <string name="exit_btn_lbl">EXIT APPLICATION</string>
+    <string name="user_name_txt">LOGIN ID :</string>
+    <string name="user_name_hint_txt">USERNAME</string>
+    <string name="login_pass_txt">PASSWORD :</string>
+    <string name="user_pass_hint">PASSWORD</string>
+    <string name="detail_view_job_title_txt">JOB TITLE</string>
+    <string name="detail_view_date_lbl_txt">12:00 PM 05 April, 2011</string>
+    <string name="detail_view_note_lbl">Notes :</string>
+    <string name="detail_view_notes_hint">YOURS NOTES WILL BE SHOWN HERE...</string>
+    <string name="detail_view_get_dir_btn_txt">GET DIRECTIONS</string>
+    <string name="detail_view_send_update_btn_txt">SEND CUSTOMER UPDATE</string>
+    <string name="contact_info_lbl_txt">Contact Information :</string>
+    <string name="detail_view_address_lbl">Address and Time Information Here...</string>
+    <string name="location_txt_hint">Enter Location Here...</string>
+    <string name="go_to_location_btn_lbl">GO !!</string>
+    <string name="time_lbl_txt">Time :</string>
+    <string name="time_txt_hint">09:25 </string>
+    <string name="complete_work_btn_txt">Start Work</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="match_parent" android:id="@+id/MainLayout" android:background="@drawable/black_background">
+<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerInParent="true" android:text="@string/titlelbl" android:id="@+id/headertxt" />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/headertxt" android:layout_alignRight="@+id/headertxt" android:layout_marginRight="80dip" android:id="@+id/time_lbl" android:text="@string/time_lbl_txt"></TextView>
+  <EditText android:layout_height="wrap_content" android:layout_below="@+id/time_lbl" android:layout_alignLeft="@+id/time_lbl" android:id="@+id/time_txt" android:hint="@string/time_txt_hint" android:layout_width="match_parent" android:gravity="center" android:editable="false"></EditText> 
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/datelbl" android:text="@string/datelbl" android:layout_marginLeft="5dip" android:layout_below="@+id/headertxt" /> 
+  <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:gravity="center" android:hint="@string/jobTitleHint" android:layout_below="@+id/jobTitle" android:id="@+id/jobTitleTxt"/> 
+  <TextView android:layout_height="wrap_content" android:text="@string/contact_info_lbl_txt" android:layout_width="wrap_content" android:layout_alignLeft="@+id/jobTitleTxt" android:id="@+id/contact_info_lbl" android:layout_below="@+id/jobTitleTxt"/>
+  <TextView android:layout_width="wrap_content" android:layout_marginRight="80dip" android:layout_height="wrap_content" android:text="@string/PhoneLbl" android:id="@+id/phonelbl" android:layout_toRightOf="@+id/contact_info_lbl" android:layout_below="@+id/nameTxt"></TextView> 
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/nameTxt" android:gravity="center" android:hint="@string/nametxtHint" android:layout_below="@+id/namelbl" /> 
+  <EditText android:layout_height="wrap_content" android:layout_alignLeft="@+id/nameTxt" android:layout_width="match_parent" android:gravity="center" android:hint="@string/AddressHint" android:id="@+id/addressText" android:lines="2" android:layout_below="@+id/addresslbl"/> 
+  <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:hint="@string/mobileHint" android:gravity="center" android:id="@+id/mobileTxt" android:layout_below="@+id/mobilelbl" /> 
+  <EditText android:id="@+id/notesTxt" android:layout_height="wrap_content" android:layout_width="match_parent" android:lines="5" android:gravity="fill_horizontal" android:layout_below="@+id/noteslbl" /> 
+  <EditText android:id="@+id/phoneTxt" android:hint="@string/phoneHint" android:layout_height="wrap_content" android:layout_below="@+id/phonelbl" android:layout_alignLeft="@+id/phonelbl" android:layout_marginTop="1dip" android:layout_width="match_parent" android:gravity="center"/> 
+  <TextView android:text="@string/notesLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/noteslbl" android:layout_below="@+id/addressText" /> 
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/nameTxt" android:layout_marginLeft="5dip" android:id="@+id/addresslbl" android:text="@string/Addresslbl" android:layout_below="@+id/phoneTxt"/> 
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:id="@+id/namelbl" android:text="@string/namelbl" android:layout_below="@+id/contact_info_lbl"/> 
+  <EditText android:layout_height="wrap_content" android:gravity="center" android:hint="@string/dateHint" android:id="@+id/dateTxt" android:inputType="none" android:editable="false" android:layout_below="@+id/datelbl" android:layout_width="wrap_content"/> 
+  <TextView android:layout_height="wrap_content" android:id="@+id/jobTitle" android:text="@string/jobtitletxt" android:layout_width="wrap_content" android:layout_marginLeft="5dip" android:layout_below="@+id/dateTxt" android:layout_alignLeft="@+id/dateTxt" /> 
+   
+  <TextView android:layout_height="wrap_content" android:id="@+id/mobilelbl" android:text="@string/MobileLbl" android:layout_width="wrap_content" android:layout_marginLeft="5dip" android:layout_alignLeft="@+id/nameTxt" android:layout_below="@+id/nameTxt"/> 
+  </RelativeLayout>
+  <Button android:id="@+id/saveBtn" android:layout_width="wrap_content" android:gravity="center" android:text="@string/btnSave" android:layout_height="wrap_content" android:layout_gravity="center" /> 
+  </LinearLayout>
+  </ScrollView>
