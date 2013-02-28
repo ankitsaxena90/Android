@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <com.google.android.maps.MapView
+                 android:id="@+id/mapView" android:layout_width="fill_parent"
+                 android:layout_height="fill_parent" state_enabled="true"
+                 android:clickable="true" android:apiKey="0xry_dYPsYrem73udjqAiIADuPjx5Z7ErPlJkdg"
+                 />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

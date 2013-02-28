@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="90dip"
+        android:text="CHOOSE THE OPTION"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="250dp">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="fill_parent" android:orientation="vertical"> 
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_red"
+        android:text="Start Tracking" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_blue"
+        android:text="Msg Tracking" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_purple"
+        android:text="GetRoute" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_green"
+        android:text="History" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_red"
+        android:text="My Location" />
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
